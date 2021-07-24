@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.latest-match-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e293b;
+  width: 80vw;
+  border-radius: 15px;
+}
+
+.match-header {
+  text-align: left;
+}
+
+.match-other-details {
+  text-align: right;
+}
+
+.competing-team-logo {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.question {
+  font-size: 20px;
+}
+
+.answer,
+.venue,
+.result {
+  font-size: 18px;
+}
+
+.date {
+  font-size: 25px;
+}

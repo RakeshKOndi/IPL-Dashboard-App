@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.recent-match-card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  margin: 0px 0px 15px 0px;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.image {
+  width: 180px;
+  height: 200px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.won {
+  color: #18ed66;
+}
+
+.lost {
+  color: #e31a1a;
+}
+
+.status {
+  font-size: 20px;
+}
